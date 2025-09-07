@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/soller-landing-page/static/css/main.40c58f2a.css",
+    "main.js": "/soller-landing-page/static/js/main.65a79eed.js",
+    "static/js/453.5503d79b.chunk.js": "/soller-landing-page/static/js/453.5503d79b.chunk.js",
+    "index.html": "/soller-landing-page/index.html",
+    "main.40c58f2a.css.map": "/soller-landing-page/static/css/main.40c58f2a.css.map",
+    "main.65a79eed.js.map": "/soller-landing-page/static/js/main.65a79eed.js.map",
+    "453.5503d79b.chunk.js.map": "/soller-landing-page/static/js/453.5503d79b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.40c58f2a.css",
+    "static/js/main.65a79eed.js"
+  ]
+}
