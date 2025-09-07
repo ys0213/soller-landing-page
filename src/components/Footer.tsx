@@ -8,7 +8,7 @@ const Footer: React.FC = () => {
           {/* Left side - Logo and Copyright */}
           <div className="flex flex-col md:flex-row items-center md:items-center gap-2 md:gap-4">
             <div className="flex items-center space-x-2">
-              <img src="/Images/Icon.png" alt="Soller Logo" className="w-10 h-6" />
+              <img src={process.env.PUBLIC_URL + "/Images/Icon.png"} alt="Soller Logo" className="w-10 h-6" />
               <span className="text-lg font-bold">Soller</span>
             </div>
             <p className="text-gray-600 text-xs">

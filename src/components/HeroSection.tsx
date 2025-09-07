@@ -10,7 +10,7 @@ const HeroSection: React.FC = () => {
         {/* Hero Image - First, positioned at top */}
         <div className="w-full h-[340px] relative">
           <img
-            src="/Images/Hero_Right.png"
+            src={process.env.PUBLIC_URL + "/Images/Hero_Right.png"}
             alt="Solar installation"
             className="w-full h-full object-contain object-right-top"
           />
@@ -42,7 +42,7 @@ const HeroSection: React.FC = () => {
               </p>
               <div className="flex items-center space-x-3">
                 <img
-                  src="/Images/User_Thumb.png"
+                  src={process.env.PUBLIC_URL + "/Images/User_Thumb.png"}
                   alt="Rwanda Melflor"
                   className="w-10 h-10 rounded-full object-cover"
                 />
@@ -83,7 +83,7 @@ const HeroSection: React.FC = () => {
                   </p>
                   <div className="flex items-center space-x-3">
                     <img
-                      src="/Images/User_Thumb.png"
+                      src={process.env.PUBLIC_URL + "/Images/User_Thumb.png"}
                       alt="Rwanda Melflor"
                       className="w-10 h-10 rounded-full object-cover"
                     />
@@ -99,7 +99,7 @@ const HeroSection: React.FC = () => {
             {/* Right Content - Image */}
             <div className="absolute top-0 right-0 w-1/2 h-full">
               <img
-                src="/Images/Hero_Right.png"
+                src={process.env.PUBLIC_URL + "/Images/Hero_Right.png"}
                 alt="Solar installation"
                 className="w-full h-full object-cover object-top-right"
               />

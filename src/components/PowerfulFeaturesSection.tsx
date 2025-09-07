@@ -65,7 +65,7 @@ const PowerfulFeaturesSection: React.FC = () => {
           {/* Main Image */}
           <div className="w-full">
             <img
-              src="/Images/PowerfulFeatures.png"
+              src={process.env.PUBLIC_URL + "/Images/PowerfulFeatures.png"}
               alt="Powerful features"
               className="w-full h-auto"
             />
@@ -108,7 +108,7 @@ const PowerfulFeaturesSection: React.FC = () => {
           {/* Right Content - Image */}
           <div className="w-full">
             <img
-              src="/Images/PowerfulFeatures.png"
+              src={process.env.PUBLIC_URL + "/Images/PowerfulFeatures.png"}
               alt="Powerful features"
               className="w-full h-auto"
             />

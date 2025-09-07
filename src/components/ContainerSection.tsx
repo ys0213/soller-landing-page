@@ -8,19 +8,19 @@ const ContainerSection: React.FC = () => {
     >
       {/* Background Images */}
       <div className="absolute top-0 -translate-y-[120px] left-0 w-96 h-96 lg:w-[580px] lg:h-[580px] hidden lg:block">
-        <img src="/Images/Container2.png" alt="Decorative" className="w-full h-full object-contain" />
+        <img src={process.env.PUBLIC_URL + "/Images/Container2.png"} alt="Decorative" className="w-full h-full object-contain" />
       </div>
       
       <div className="absolute top-0 right-0 w-[640px] h-auto hidden lg:block">
-        <img src="/Images/Container3.png" alt="Decorative" className="w-full h-full object-contain" />
+        <img src={process.env.PUBLIC_URL + "/Images/Container3.png"} alt="Decorative" className="w-full h-full object-contain" />
       </div>
       
       <div className="absolute bottom-0 left-0 w-96 h-auto left-0 lg:left-10 transform -translate-x-32 lg:translate-x-0">
-        <img src="/Images/Container4.png" alt="Decorative" className="w-full h-full object-contain" />
+        <img src={process.env.PUBLIC_URL + "/Images/Container4.png"} alt="Decorative" className="w-full h-full object-contain" />
       </div>
       
       <div className="absolute bottom-0 translate-y-[120px] right-0 w-80 h-80 hidden lg:block">
-        <img src="/Images/Container5.png" alt="Decorative" className="w-full h-full object-contain" />
+        <img src={process.env.PUBLIC_URL + "/Images/Container5.png"} alt="Decorative" className="w-full h-full object-contain" />
       </div>
 
       <div className="relative z-10 w-full px-4 sm:px-6 lg:px-16">
@@ -45,7 +45,7 @@ const ContainerSection: React.FC = () => {
           {/* Laptop Image */}
           <div className="flex items-end">
             <img
-              src="/Images/Container1.png"
+              src={process.env.PUBLIC_URL + "/Images/Container1.png"}
               alt="Laptop"
               className="w-full max-w-2xl h-auto"
             />
@@ -79,7 +79,7 @@ const ContainerSection: React.FC = () => {
         {/* Centered Laptop Image - Desktop Only */}
         <div className="hidden lg:flex justify-center mt-12 lg:mt-16">
           <img
-            src="/Images/Container1.png"
+            src={process.env.PUBLIC_URL + "/Images/Container1.png"}
             alt="Laptop"
             className="w-full max-w-4xl h-auto"
           />

@@ -10,28 +10,28 @@ const TestimonialsSection: React.FC = () => {
       text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.",
       author: "Jane Cooper",
       role: "10KWh",
-      avatar: "/Images/User_Thumb.png"
+      avatar: process.env.PUBLIC_URL + "/Images/User_Thumb.png"
     },
     {
       icon: Star,
       text: "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.",
       author: "Ralph Edwards",
       role: "32KWh",
-      avatar: "/Images/User_Thumb.png"
+      avatar: process.env.PUBLIC_URL + "/Images/User_Thumb.png"
     },
     {
       icon: Castle,
       text: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto.",
       author: "Courtney Henry",
       role: "6KWh",
-      avatar: "/Images/User_Thumb.png"
+      avatar: process.env.PUBLIC_URL + "/Images/User_Thumb.png"
     },
     {
       icon: Clock,
       text: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati.",
       author: "Cameron",
       role: "12KWh",
-      avatar: "/Images/User_Thumb.png"
+      avatar: process.env.PUBLIC_URL + "/Images/User_Thumb.png"
     }
   ];
 
@@ -47,15 +47,15 @@ const TestimonialsSection: React.FC = () => {
     <section className="relative py-16 lg:py-20 bg-purple-900 overflow-hidden">
       {/* Background Circles */}
       <div className="absolute top-0 right-10 w-[400px] h-[400px] lg:w-[600px] lg:h-[600px] transform translate-x-[150px] translate-y-[120px] lg:translate-x-[220px] lg:-translate-y-[180px]">
-        <img src="/Images/TestimonialsCircle1.png" alt="Decorative circle" className="w-full h-full object-contain" />
+        <img src={process.env.PUBLIC_URL + "/Images/TestimonialsCircle1.png"} alt="Decorative circle" className="w-full h-full object-contain" />
       </div>
       
       <div className="absolute bottom-0 left-0 w-[1200px] h-[1200px] hidden lg:block transform -translate-x-[400px] translate-y-1/2">
-        <img src="/Images/TestimonialsCircle2.png" alt="Decorative circle" className="w-full h-full object-contain" />
+        <img src={process.env.PUBLIC_URL + "/Images/TestimonialsCircle2.png"} alt="Decorative circle" className="w-full h-full object-contain" />
       </div>
       
       <div className="absolute bottom-0 right-0 w-40 h-40 lg:w-56 lg:h-56 transform translate-x-20 -translate-y-8">
-        <img src="/Images/TestimonialsCircle3.png" alt="Decorative circle" className="w-full h-full object-contain" />
+        <img src={process.env.PUBLIC_URL + "/Images/TestimonialsCircle3.png"} alt="Decorative circle" className="w-full h-full object-contain" />
       </div>
 
       <div className="relative z-10 w-full px-4 sm:px-6 lg:px-16">

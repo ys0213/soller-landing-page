@@ -10,7 +10,7 @@ const CaseStudiesSection: React.FC = () => {
           {/* Main Image */}
           <div className="relative z-10">
             <img
-              src="/Images/CaseStudiesImage1.png"
+              src={process.env.PUBLIC_URL + "/Images/CaseStudiesImage1.png"}
               alt="Case study main"
               className="w-3/4 h-auto object-contain mx-auto"
             />
@@ -19,7 +19,7 @@ const CaseStudiesSection: React.FC = () => {
           {/* Overlay Image - Hidden on mobile */}
           <div className="absolute top-0 left-0 bottom-0 w-[650px] hidden lg:block">
             <img
-              src="/Images/CaseStudiesImage2.png"
+              src={process.env.PUBLIC_URL + "/Images/CaseStudiesImage2.png"}
               alt="Case study overlay"
               className="w-full h-full object-cover"
             />
@@ -53,7 +53,7 @@ const CaseStudiesSection: React.FC = () => {
       {/* Bottom Right Image - Hidden on mobile */}
       <div className="absolute bottom-0 right-0 w-[568px] h-[368px] hidden lg:block">
         <img
-          src="/Images/CaseStudiesImage3.png"
+          src={process.env.PUBLIC_URL + "/Images/CaseStudiesImage3.png"}
           alt="Case study bottom"
           className="w-full h-full object-contain object-bottom"
         />

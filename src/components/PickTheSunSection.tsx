@@ -22,7 +22,7 @@ const PickTheSunSection: React.FC = () => {
         <div className="w-full">
           <div className="relative">
             <img
-              src="/Images/Section2.png"
+              src={process.env.PUBLIC_URL + "/Images/Section2.png"}
               alt="Solar panels installation"
               className="w-full h-auto"
             />
