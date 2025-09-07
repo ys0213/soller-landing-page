@@ -1,46 +1,116 @@
-# Getting Started with Create React App
+# Soller Solar Landing Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive solar energy landing page built from a Figma design template. This project demonstrates professional web development skills in converting design mockups into fully functional, pixel-perfect websites.
 
-## Available Scripts
+## 🎨 Design to Code Conversion
 
-In the project directory, you can run:
+This project showcases the ability to transform Figma designs into production-ready web applications with:
 
-### `npm start`
+- **Pixel-perfect implementation** of the original design
+- **Fully responsive** layout for desktop and mobile devices
+- **Modern React.js** architecture with TypeScript
+- **Tailwind CSS** for efficient styling
+- **Optimized performance** and clean code structure
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 🔗 Live Demo & Original Design
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **🌐 Live Website**: [https://ys0213.github.io/soller-landing-page](https://ys0213.github.io/soller-landing-page)
+- **🎨 Original Figma Design**: [https://www.figma.com/design/gv34x0iKuYQ5HMPNVCssgP/Landing-Page-Figma-Template?node-id=0-1&t=Z0W1Hb5SnIHZRt4T-1](https://www.figma.com/design/gv34x0iKuYQ5HMPNVCssgP/Landing-Page-Figma-Template?node-id=0-1&t=Z0W1Hb5SnIHZRt4T-1)
 
-### `npm test`
+## ✨ Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Responsive Design
+- **Mobile-first approach** with seamless desktop scaling
+- **Adaptive layouts** that work across all device sizes
+- **Touch-friendly** interactions for mobile users
 
-### `npm run build`
+### Modern UI Components
+- **Hero Section** with compelling call-to-action
+- **Feature showcases** with interactive elements
+- **Testimonials carousel** with smooth navigation
+- **Case studies** section with visual storytelling
+- **Contact forms** and conversion-focused CTAs
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Technical Excellence
+- **React 18** with modern hooks and functional components
+- **TypeScript** for type safety and better development experience
+- **Tailwind CSS** for utility-first styling
+- **Lucide React** for consistent iconography
+- **Optimized images** and assets for fast loading
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🛠️ Technologies Used
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Frontend**: React 18, TypeScript
+- **Styling**: Tailwind CSS
+- **Icons**: Lucide React
+- **Build Tool**: Create React App
+- **Deployment**: GitHub Pages
 
-### `npm run eject`
+## 🚀 Getting Started
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Installation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+1. Clone the repository:
+```bash
+git clone https://github.com/ys0213/soller-landing-page.git
+cd soller-landing-page
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+2. Install dependencies:
+```bash
+npm install
+```
 
-## Learn More
+3. Start the development server:
+```bash
+npm start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4. Open [http://localhost:3000](http://localhost:3000) to view the application.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Build for Production
+
+```bash
+npm run build
+```
+
+This creates an optimized production build in the `build` folder.
+
+## 📱 Responsive Breakpoints
+
+- **Mobile**: < 768px
+- **Tablet**: 768px - 1024px  
+- **Desktop**: > 1024px
+
+## 🎯 Key Sections
+
+1. **Header** - Navigation with transparent overlay
+2. **Hero Section** - Main value proposition with CTA
+3. **Features** - Service highlights with icons
+4. **Powerful Features** - Advanced capabilities showcase
+5. **Testimonials** - Customer feedback carousel
+6. **Case Studies** - Success stories and results
+7. **Container Section** - Final conversion section
+8. **Footer** - Company information and links
+
+## 💼 Client Benefits
+
+This project demonstrates:
+
+- **Design Fidelity**: Accurate translation of visual designs to code
+- **Performance**: Fast loading times and smooth interactions
+- **Accessibility**: Semantic HTML and keyboard navigation
+- **SEO Ready**: Proper meta tags and structured content
+- **Maintainable Code**: Clean, documented, and scalable architecture
+
+## 📞 Contact
+
+For inquiries about custom web development services or similar projects, please reach out through the contact information provided in the live demo.
+
+---
+
+*This project serves as a portfolio piece showcasing professional web development capabilities in modern React.js and responsive design implementation.*
